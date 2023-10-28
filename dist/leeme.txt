@@ -1,0 +1,3 @@
+Hola, buen día. Para este proyecto no es necesario un archivo de base de datos (bd). 
+Solo corre el 'xampp' y ¡listo! También dejo el código fuente. Pueden modificarlo a su gusto. 
+Espero que les sea útil. Cualquier recomendación me ayudaría muchísimo.
