@@ -24,6 +24,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+import javax.swing.SwingConstants;
 
 public class PanelPrincipal extends JPanel implements ActionListener{
     private JPanel panel_titulo, panel_desc;
@@ -97,8 +98,9 @@ public class PanelPrincipal extends JPanel implements ActionListener{
         label_image.setBounds(500,250,250,250);
         panel_desc.add(label_image);
         
-        label_copyright=new JLabel("Creado por davidillanis ©");
-        label_copyright.setBounds(350,780,200,30);
+        label_copyright=new JLabel("Todos los derechos a davidillanis ©");
+        label_copyright.setBounds(0,780,900,30);
+        label_copyright.setHorizontalAlignment(SwingConstants.CENTER);
         label_copyright.setFont(new Font("Times new Roman",0,14));
         label_copyright.addMouseListener(new MouseAdapter() {
             @Override public void mouseClicked(MouseEvent e) {
